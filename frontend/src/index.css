@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd'), url(./fonts/CircularStd-Black.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd'), url(./fonts/CircularStd-BlackItalic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd'), url(./fonts/CircularStd-Bold.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd'), url(./fonts/CircularStd-BoldItalic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd'), url(./fonts/CircularStd-Book.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd'), url(./fonts/CircularStd-BookItalic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd'), url(./fonts/CircularStd-Medium.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd'), url(./fonts/CircularStd-MediumItalic.woff2) format('woff2');
+}
