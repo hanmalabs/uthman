@@ -1,12 +1,11 @@
 const {
-    addDecoratorsLegacy,
     override,
-    disableEsLint
-} = require("customize-cra");
+    addPostcssPlugins
+} = require('customize-cra');
 
-module.exports = {
-    webpack: override(
-        addDecoratorsLegacy(),
-        disableEsLint()
-    )
-};
+module.exports = override(
+    addPostcssPlugins([
+        require('tailwindcss'),
+        require('autoprefixer'),
+    ]),
+);

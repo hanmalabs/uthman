@@ -3,34 +3,50 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'CircularStd';
-  src: local('CircularStd'), url(./fonts/CircularStd-Black.woff2) format('woff2');
+font-family: 'Cereal';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/AirbnbCerealBook.woff');
 }
+
+
 @font-face {
-  font-family: 'CircularStd';
-  src: local('CircularStd'), url(./fonts/CircularStd-BlackItalic.woff2) format('woff2');
+font-family: 'Cereal';
+font-style: normal;
+font-weight: 200;
+src: url('fonts/AirbnbCerealLight.woff');
 }
+
+
 @font-face {
-  font-family: 'CircularStd';
-  src: local('CircularStd'), url(./fonts/CircularStd-Bold.woff2) format('woff2');
+font-family: 'Cereal';
+font-style: normal;
+font-weight: 400;
+src: url('fonts/AirbnbCerealMedium.woff');
 }
+
+
 @font-face {
-  font-family: 'CircularStd';
-  src: local('CircularStd'), url(./fonts/CircularStd-BoldItalic.woff2) format('woff2');
+font-family: 'Cereal';
+font-style: normal;
+font-weight: 600;
+src: url('fonts/AirbnbCerealBold.woff');
 }
+
+
 @font-face {
-  font-family: 'CircularStd';
-  src: local('CircularStd'), url(./fonts/CircularStd-Book.woff2) format('woff2');
+font-family: 'Cereal';
+font-style: normal;
+font-weight: 700;
+src: url('fonts/AirbnbCerealExtraBold.woff');
 }
+
+
 @font-face {
-  font-family: 'CircularStd';
-  src: local('CircularStd'), url(./fonts/CircularStd-BookItalic.woff2) format('woff2');
+font-family: 'Cereal';
+font-style: normal;
+font-weight: 800;
+src: url('fonts/AirbnbCerealBlack.woff');
 }
-@font-face {
-  font-family: 'CircularStd';
-  src: local('CircularStd'), url(./fonts/CircularStd-Medium.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: local('CircularStd'), url(./fonts/CircularStd-MediumItalic.woff2) format('woff2');
-}
+
+

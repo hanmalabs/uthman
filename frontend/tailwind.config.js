@@ -1,15 +1,13 @@
-// tailwind.config.js
-module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {},
-    fontFamily: {
-      CircularStd: ['CircularStd']
-    },
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
-}
+ module.exports = {
+    theme: {
+      extend: {
+        backgroundImage: theme => ({
+          'homecover': "url('./images/homecover.jpg')",
+          'artcover': "url('./images/artcover.jpg')",
+        }),
+       height: {
+       lx: '90vh',
+       }
+      }
+    }
+  }
